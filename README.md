@@ -14,7 +14,7 @@ A collection of STM32 bare-metal driver development projects.
 | Project | Description |
 |---|---|
 | `1_gpio_address_config` | Locating Ports and Pins of Periphereas/Components on Nucleo Board, Defining addresses of Modules using Documentation, Creating required registers | 
-
+| `1_gpio_led_stmheader` | Same LED Blinking but used stm32h7xx.h header and data structures of ST |
 
 
 ## Repository Structure
