@@ -32,8 +32,8 @@ int main(void)
 	while(1)
 	{
 		/*Turn on all leds*/
-		//GPIOB_OD_R |= USER_LED1 | USER_LED3;
-		//GPIOE_OD_R |= USER_LED2;
+		//GPIOB->ODR |= USER_LED1 | USER_LED3;
+		//GPIOB->ODR |= USER_LED2;
 
 		/* toggle*/
 		GPIOB->ODR ^= USER_LED1 | USER_LED3;
