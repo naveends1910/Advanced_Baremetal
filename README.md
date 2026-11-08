@@ -19,6 +19,7 @@ A collection of STM32 bare-metal driver development projects.
 | `2_uart` | UART TX project that prints a character - verified on Picocom serial terminal |
 | `2_uart_printf` | Printf function will now print on serial terminal - verified on Picocom serial terminal |
 | `2_uart_rx` | Read character from serial terminal and control LEDs- ON, OFF or Toggle |
+| `3_adc_continuous` | Configure A0 pin as ADC1 CH15 input and measure GND, 3.3V and simple resistor divider voltage from 3.3V and 5V |
 
 ## Repository Structure
 
